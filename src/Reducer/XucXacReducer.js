@@ -20,8 +20,8 @@ const XucXacReducer = (state = initialState, action) => {
   switch (action.type) {
     case PLAY: {
       if (state.choosen === "") {
-
-        return {...state, choosen: 'HAY CHON TAI HOAC XIU'};
+        alert('HAY CHON TAI HOAC XIU')
+        return state;
       }
       let imgShowInStateNew = [];
       let arrNut = [];
