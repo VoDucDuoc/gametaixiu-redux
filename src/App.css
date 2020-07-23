@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'pony';
+  src: url(font/Pony.ttf);
+}
+h1, div{
+  font-family: pony;
+}
