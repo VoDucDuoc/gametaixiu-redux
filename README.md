@@ -1,2 +1,2 @@
-# a game Tai Xiu ReactJs
+# a game is called Tai Xiu - ReactJs
 #### Using Redux
